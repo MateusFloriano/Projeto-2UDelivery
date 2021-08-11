@@ -1,0 +1,100 @@
+<main>
+    <img src="../../assets/images/header-lojista.svg">
+    <h1 id="title">Cadastre sua Loja</h1>
+
+    <div id="area-form">
+        <form>
+            <h3 class="title-form">Dados Pessoais</h3>
+            <div class="form-row">
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-nome" placeholder="Nome" autocomplete="off" />
+                </div>
+                
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-sobrenome" placeholder="Sobrenome" autocomplete="off" />
+                </div>
+                
+                <div class="col-12">
+                    <input type="email" class="form-control input-principal" name="form-email" placeholder="Email" autocomplete="off" />
+                </div>
+                
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-cpf" placeholder="CPF" autocomplete="off" onkeypress="CPF(event, this)" />
+                </div>
+                
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-rg" placeholder="RG" autocomplete="off" onkeypress="RG(event, this)" />
+                </div>
+            </div>
+            
+            <h3 class="title-form">Dados Estabelecimento</h3>
+
+            <div class="form-row">
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-cnpj" placeholder="CNPJ" autocomplete="off" onkeypress="CNPJ(event, this)" />
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-responsavel" placeholder="Nome do responsável" autocomplete="off" />
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-estado" placeholder="Estado" autocomplete="off" />
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-cidade" placeholder="Cidade" autocomplete="off" />
+                </div>
+
+                <div class="col-12">
+                    <input type="email" class="form-control input-principal" name="form-email-estab" placeholder="Email" autocomplete="off" />
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-tel" placeholder="Telefone" autocomplete="off" onkeypress="tel(event, this)" />
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control input-principal" name="form-ramo-atu" placeholder="Ramo de atuação" autocomplete="off" />
+                </div>
+
+                <div class="col-12">
+                    <input list="motoboy-proprio"  class="form-control input-principal motoboy-proprio" placeholder="Tem motoboy próprio?" />
+                        <datalist id="motoboy-proprio" name="motoboy-proprio">
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </datalist>  
+                </div>
+
+                <div class="col-12">
+                    <input list="outro-delivery"  class="form-control input-principal outro-delivery" placeholder="Atua com outro delivery?" />
+                        <datalist id="outro-delivery" name="outro-delivery">
+                            <option>Sim</option>
+                            <option>Não</option>
+                        </datalist>  
+                </div>
+            </div>
+
+            <div class="col-lg-6 mx-auto">
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-4 mt-4">
+                    <div class="form-row">
+                        <div class="col-12">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Li e aceito os <a href="#" id="termos">termos do contrato</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <div class="form-row">
+                        <button type="submit" class="btn btn-lg px-4 me-sm-3 btn-submit">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+

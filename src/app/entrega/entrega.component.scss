@@ -1,0 +1,107 @@
+main {
+    margin-bottom: 90px;
+}
+
+#title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font: normal normal medium 40px/53px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#area-form {
+    background-color: #000000;
+    margin: 0 auto;
+    width: 70%;
+    padding: 30px;
+    border-radius: 28px;
+}
+
+.title-form {
+    padding: 20px 0 20px 0;
+    color: var(--unnamed-color-ebd700);
+    font: normal normal medium 30px/39px Roboto;
+    letter-spacing: 0px;
+    color: #EBD700;
+    opacity: 1;
+}
+
+#area-form .input-principal {
+    background: #323233 0% 0% no-repeat padding-box;
+    border-color: #323233;
+    margin-bottom: 15px;
+    height: 50px;
+    color: #FFFFFF;
+}
+
+#area-form ::placeholder {
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.checkbox {
+    padding: 10px 0 20px 0;
+}
+
+.form-check-label {
+    padding: 0 0 0 30px;
+    color: #FFFFFF;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.form-check-label a {
+    text-decoration: underline;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #EBD700;
+}
+
+.btn-submit {
+    background: #EBD700 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    width: 310px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.input-file {
+    padding: 11px 0 0 11px;
+    width: 100%;
+    background-color: #323233;
+    border-color: #a7a7af;
+    margin-bottom: 15px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.input-file span,i {
+    color: #FFFFFF;
+    opacity: 0.8;
+    letter-spacing: 0px;
+    border-radius: 5px;
+}
+
+.fa-folder-open {
+    padding: 5px 11px 0 0;
+    float: right;
+}
+
+@media only screen and (max-width: 1100px) {
+    #area-form {
+        background-color: #000000;
+        margin: 0 auto;
+        width: 99%;
+        padding: 30px;
+        border-radius: 28px;
+    }  
+}

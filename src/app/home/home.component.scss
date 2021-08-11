@@ -1,0 +1,243 @@
+// ************ HOME ************
+
+.home {
+    background-image: url(../../assets/images/art-home.png);
+    height: 700px;
+    max-width: 100%;
+}
+
+// ************ HOME TOP LEFT ************
+
+.container-home-left {
+    max-width: 100%;
+}
+
+.container-home-left img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.title-downloadApp {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-phone {
+    width: 100%;
+}
+
+.container-home-left-icon {
+    text-align: center;
+}
+
+#app-store-top {
+    border-radius: 10px;
+}
+
+.container-home-left {
+    max-width: 100%;
+} 
+
+// ************ HOME TOP RIGHT ************
+
+.container-home-right-icon img {
+    max-height: 120px;
+    margin-top: 50px;
+} 
+
+#title-home-top {
+    padding: 70px 0 0 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+
+#title-home-top br {
+    display: none;
+}
+
+.text-content-right {
+    text-align: justify;
+    font-size: 24px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+
+#text-body-top {
+    margin-top: 30px;
+    color: #000000;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 22px;
+}
+
+// // ************ HOME BODY CIRCLE ************
+
+#container {
+    padding: 0 200px 0 200px;
+    text-align: center;
+}
+
+.circle-content img {
+    width: 250px;
+    height: 250px;
+}
+
+.circle-content p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+// ************ HOME BODY CARD ************
+
+.card {
+    border-radius: 30px;
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+
+.div-circle-card-l img {
+    width: 145px;
+    height: 145px; 
+}
+
+.title-person-l {
+    font-weight: 700;
+    color: #ebd700;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-body-card-l {
+    color: #d4d4d4;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.div-circle-card-r img {
+    width: 145px;
+    height: 145px;  
+    position: relative;
+    float: right;
+}
+
+.title-person-r {
+    font-weight: 700;
+    color: #ebd700;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-body-card-r {
+    color: #d4d4d4;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.icon-download-bottom {
+    max-width: 150px;
+}
+
+// ************ HOME BODY FOOTER ************
+
+.home-bottom {
+    margin-bottom: 25%;
+}
+
+
+@media only screen and (max-width: 1340px) {
+    .home {
+        height: 800px;
+    }
+    #container {
+        padding: 0 120px 0 120px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .home {
+        height: 800px;
+    }
+
+    #container {
+        padding: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    .circle-content img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .home {
+        height: 1070px;
+    }
+
+    #text-body-top {
+        margin-top: 30px;
+        color: #000000;
+        font-weight: 400;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    #container {
+        padding: 0 15px 0 15px;
+        text-align: center;
+    }
+
+    .circle-content img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .circle-content p {
+        font-size: 20px;
+    }
+
+    .title-person-l {
+        font-weight: 700;
+        color: #ebd700;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .div-circle-card-r {
+        margin: 0 auto;
+        width: 50%;
+        height: 145px;  
+    }
+
+    .title-person-r {
+        font-weight: 700;
+        color: #ebd700;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    #title-home-top {
+        padding: 65px 0 0 10px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    #title-home-top br {
+        display: block;
+    }
+}
